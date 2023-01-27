@@ -2,7 +2,8 @@ import speech_recognition as sr
 import pyttsx3
 import openai
 
-openai.api_key = "YOUR KEY"
+openai.api_key = "YOUR KEY"   
+# you will need yuor API key, you can find it on openAI you will need to log in. 
 
 engine = pyttsx3.init()
 voices = engine.getProperty('voices')
